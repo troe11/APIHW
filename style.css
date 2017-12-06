@@ -1,0 +1,44 @@
+body {
+	background-color: gold;
+}
+.gifBtn {
+	width: 200px;
+	height: 48px;
+	background-color: navy;
+	border-radius: 10px;
+	margin: 15px;
+	color: white;
+	font-size: 24px;
+}
+
+.gifBtn:active {
+  background-color: black;
+  box-shadow: 1px grey;
+  transform: translateY(4px);
+  opacity: 1.25;
+}
+.gif {
+	float: left;
+}
+
+h2 {
+	text-align: center;
+	border: 2px solid black;
+}
+
+#names {
+	padding-left: 5%;
+	border-bottom: 10px solid navy;
+}
+
+#input-div {
+	border-left: 10px solid navy;
+	height:480px;
+	padding-right: 100px;
+}
+
+p {
+	font-size: 24px;
+	font-weight: bold;
+	color:navy;
+}
